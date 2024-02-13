@@ -1,0 +1,18 @@
+package MyProject6OnlineShop.common;
+
+import java.util.ArrayList;
+
+public class AppView {
+    public final String title;
+    public final ArrayList<AppView> children;
+
+    public AppView(String title, ArrayList<AppView> children) {
+        this.title = title;
+        this.children = children;
+    }
+
+
+public void Action(){
+
+}
+}
